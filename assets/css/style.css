@@ -11,6 +11,8 @@ nav {
   height: 60px;
   background-color: #ffffff;
   border-bottom: 2px solid #cccccc;
+  position: relative;
+  top: 0;
 }
 #nameBadge {
   float: left;
@@ -71,7 +73,7 @@ img {
   padding: 20px;
 }
 hr {
-  width: 96%;
+  width: 95%;
   height: 3px;
   color: #cccccc;
   background-color: #cccccc;
@@ -90,9 +92,15 @@ input[type="text"] {
   width: 100%;
   padding: 5px;
   margin: 10px auto;
+  box-sizing: border-box;
 }
 input[name="message"] {
   height: 50px;
+}
+textarea {
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  width: 100%;
 }
 input[type="submit"] {
   background-color: #4aaaa5;
